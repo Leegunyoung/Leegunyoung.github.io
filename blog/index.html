@@ -171,6 +171,20 @@
 
 
 <section class="uk-margin-large-bottom">
+    <style>
+        .parent-container {
+          display: flex; /* Flexbox 레이아웃을 사용합니다. */
+        }
+      
+        .uk-card {
+          flex: 1; /* 요소들이 동일한 너비로 옆으로 정렬됩니다. */
+          margin-right: 20px; /* 요소 사이의 간격을 조정합니다. */
+        }
+      
+        .uk-card:last-child {
+          margin-right: 0; /* 마지막 요소의 오른쪽 간격을 제거합니다. */
+        }
+      </style>
     <div class="uk-container" style="float: left;">
         <div class="uk-grid-small uk-child-width-1-4@s uk-text-center" uk-grid uk-height-match="target: > div > div > .card-body">
             <div>
