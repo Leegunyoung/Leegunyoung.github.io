@@ -248,27 +248,32 @@
     <h1 class="uk-text-center uk-heading-medium">Git에 대해 알아보자!</h1>
     <p class="uk-text-center uk-text-lead">이제부터 내가 잘 설명해줄꼐!</p>
     <p class="uk-text-center">2023년 5월 이건영 지음</p>
-    <p class="uk-text-center">Reading time: 1 minutes.</p>
-    
 
     <hr class="full-width">
     
 
     <div class="content">
-      <p>Git은 어쩌구 저쩌구 깃은 좋은거야</p>
-<p>Now I have a brand new Hugo website with a custom written theme complete with</p>
+      <b><p>개발자라면 알아야할 필수 GIT명령어!</p></b>
+<p>지금부터는 모르면 안되는 필수명령어부터 일단 말할께!</p>
 <ul>
-<li>A homepage with more social links, and description of my skills</li>
-<li>An about page with description of who I am</li>
-<li>A portfolio page to showcase all my projects</li>
-<li>A blog</li>
+<li>깃 시작-git init</li>
+    <li>git add '파일이름'</li><p>로컬 저장소(= working directory, working tree)에 저장된 파일을 staging area(= cashe, index)로 전달 ( 인자로 . 를 전달하면 로컬 저장소 안의 모든 파일을 area로 전달)</p>
+<li>깃 사용내역 보여주기-git log</li>
+    <li>git commit -옵션 "#버전이름 ":</li><p>staging area의 수정된 파일들을 repo로 전달, 옵션을 통해 버전 관리 가능</p>
 </ul>
-<h3 id="why-hugo">그럼 깃은 누가쓸거야?</h3>
-<p>나 <em>site builder</em>? I&rsquo;m competent at web development, why not just write it all myself? The markdown processing makes it much easier to just write words, not having to think about the formatting, and if I&rsquo;m going to blog often, then I&rsquo;ll need that.</p>
-<p>우리 모드 깃을 써야해</p>
-<h3 id="why-start-blogging">Why start blogging?</h3>
-<p>A very good question. For one it would allow me to showcase my skills more than just a portfolio would, not everything fits under the umbrella of a portfolio, but I can blog about whatever I want. Secondly is to act as a reminder of how I do things, if I blog my process when I do technical things, I&rsquo;ll always be able to look back and see how I did it if I ever have to do it again.</p>
-<h3 id="so-what-can-i-expect-to-see-in-the-blog">So what can I expect to see in the blog?</h3>
+<h3 id="commit">commit에 관련된 추가적인 알려주고 싶은거!</h3>
+        <p>-m : 별도의 메세지를 작성할 필요없이 인라인 형식으로 바로 커밋 메세지(=버전 이름) 작성.</p>
+        <p>-a : 별도의 add명령어를 사용하지 않고 수정된 파일에 대해 add, commit을 한번에 수행함. (단, 한번도 add되지 않은 파일은 add를 따로 작업 해줘야함.)</p>
+        <p>-am : a, m의 옵션을 합친 형태.</p>
+        
+
+<h3 id="why-git">그럼 깃은 누가써야해?</h3>
+        <li>팀프로젝트를 진행하고 싶은 사람들</li>
+        <li>나의 프로젝트를 저장해놓고 싶은 사람들</li>
+        <li>그냥 모든 개발자들...?</li>ㅣ
+        
+        
+<h3 id="so">Git에 대한 정보 한눈에 알아보기!</h3>
 <p>
   <embed src="../../git summary.pdf" type="application/pdf" width="100%" height="600px" />
 </p>
@@ -286,7 +291,7 @@
     <div class="uk-grid-small uk-child-width-1-4@m uk-text-center uk-flex-center uk-margin-medium-bottom" uk-grid>
       <div class="uk-margin-small-bottom">
         <h5 class="uk-margin-small-bottom">Email</h5>
-        <a href="mailto:samrobbinsgb@gmail.com">samrobbinsgb@gmail.com</a>
+        <a href="mailto:hdn1015123@gmail.com">hdn1015123@gmail.com{건영이 메일}</a>
 
       </div>
       <div>
